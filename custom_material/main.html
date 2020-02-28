@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% if page and page.meta and page.meta.status %}
+{% block extrahead %}
+<meta name="status" content="{{ page.meta.status }}">
+{% endblock %}
+{% endif %}

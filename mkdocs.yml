@@ -1,0 +1,22 @@
+site_name: My Documentation Site
+site_description: Knowledge Base for Myself
+site_author: "Me"
+
+docs_dir: docs
+
+extra_css:
+  - css/extra.css
+theme:
+  name: "material"
+  custom_dir: "custom_material"
+  feature:
+    tabs: true
+  extrahead: status
+
+markdown_extensions:
+  - meta
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.details
